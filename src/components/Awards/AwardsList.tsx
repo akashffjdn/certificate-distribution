@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Plus, Trophy, Users, MoreVertical, Edit2, Check, Clock, Trash2 } from 'lucide-react';
-import type { CompetitionAward, CompetitionEvent } from '../../types';
+import type { CompetitionAward,} from '../../types';
 import { mockAwards, mockEvents, mockRecipients } from '../../data/mockData';
 import CreateAwardModal from './CreateAwardModal';
 import ManageRecipientsModal from './ManageRecipientsModal';

@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import { X, Search, Plus, Trash2, User, Upload } from 'lucide-react';
 import type { CompetitionAwardRecipient, User as UserType, CompetitionEvent } from '../../types';
 import { mockRecipients } from '../../data/mockData';

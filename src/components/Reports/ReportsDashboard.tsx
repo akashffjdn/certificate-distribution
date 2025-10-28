@@ -4,7 +4,7 @@ import { mockCertificates, mockEvents, mockAwards, } from '../../data/mockData';
 
 export default function ReportsDashboard() {
   const [dateRange, setDateRange] = useState('last-30-days');
-  const [selectedReport, setSelectedReport] = useState<string | null>(null);
+  const [_selectedReport, setSelectedReport] = useState<string | null>(null);
 
   // Calculate statistics
   const totalCertificates = mockCertificates.length;

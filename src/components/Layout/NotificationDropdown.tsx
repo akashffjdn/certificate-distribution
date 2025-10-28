@@ -1,5 +1,4 @@
-import React from 'react';
-import { Clock, Check, X } from 'lucide-react';
+import { Clock, X } from 'lucide-react';
 import { useNotifications } from '../../contexts/NotificationContext';
 
 interface NotificationDropdownProps {

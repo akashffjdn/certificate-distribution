@@ -1,4 +1,3 @@
-import React from 'react';
 import { Award, Download, Eye, Share2, Calendar, Trophy } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 import { mockCertificates, mockEvents, mockAwards, mockRecipients } from '../../data/mockData';
